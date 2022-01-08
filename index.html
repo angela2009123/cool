@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo Gallery</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src=""></script>
+    </head>
+
+    <body>
+        <h1>Welcome to Photo Gallery</h1>
+        <img id="Logo" src="ravens home.jpeg">
+        <h2>Gallery</h2>
+        <div class="cars">
+            <img src="booker.jpeg">
+            <img src="cha.jpeg">
+            <img src="levi.jpeg">
+            <img src="nia.jpeg">
+            <img src="Raven.jpeg">
+            <img src="sky.jpeg">
+        </div>
+        <h3>Sliding Gallery</h3>
+        <div id="mycarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img class="img-responsive" src="booker.jpeg">
+                        <div class="carousel-content">
+                            <p>booker</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img id="img-responsive" src="cha.jpeg">
+                        <div class="carousel-content">
+                            <p>cha</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img id="img-responsive" src="nia.jpeg">
+                        <div class="carousel-content">
+                            <p>nia</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img id="img-responsive" src="Raven.jpeg">
+                        <div class="carousel-content">
+                            <p>Raven</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img id="img-responsive" src="sky.jpeg">
+                        <div class="carousel-content">
+                            <p>sky</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img id="img-responsive" src="levi.jpeg">
+                        <div class="carousel-content">
+                            <p>levi</p>
+                        </div>
+                    </center>
+                </div>
+                <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left">
+                    </span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right">
+                    </span>
+                </a>
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                    <li data-target="#mycarousel" data-slide-to="3"></li>
+                    <li data-target="#mycarousel" data-slide-to="4"></li>
+                    <li data-target="#mycarousel" data-slide-to="5"></li>
+                </ol>
+            </div>
+        </div>
+    </body>
+
+    </html>
